@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "cd sme && npm run build",
+    "dev": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^21.2.3"
+  },
+  "dependencies": {
+    "cross-spawn": "^7.0.3"
+  }
+}
